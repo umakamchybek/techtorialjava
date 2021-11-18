@@ -20,6 +20,7 @@ public class CompoundAssignments {
 
         num2 +=num3;
 
+
         num1 +=num3;
 
         System.out.println(num3);
