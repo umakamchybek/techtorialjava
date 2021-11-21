@@ -11,16 +11,26 @@ public class UnaryPractice2 {
         System.out.println(a);
         System.out.println(b);
 
+        // task
+        // total donuts are - 12
         // each donut is 2$
         //print out how much the customer will pay today for each cas
 
         int donutPrice =2;
         int totalDonut = 12*donutPrice;
-
         int result1 = totalDonut;
+
         System.out.println("Today you pay at KK >>"+ (--result1));
         System.out.println("Today you pay at DD >>" + (++result1));
         System.out.println("Tomorrow you pay at DD>>" +(--result1));
+
+       char ch= 'a';
+
+        System.out.println(ch);
+        System.out.println(++ch);
+        System.out.println(++ch);
+        System.out.println(++ch);
+        System.out.println(--ch);
 
     }
 }
