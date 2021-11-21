@@ -1,6 +1,6 @@
 package Primitives;
 
-public class UnirayPractice1 {
+public class UnaryPractice {
     public static void main(String[] args) {
 
         int num1 = 25;
