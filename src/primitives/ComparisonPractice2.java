@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class ComparisonPractice2 {
     public static void main(String[] args) {

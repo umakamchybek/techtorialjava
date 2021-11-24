@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class Farm {
     public static void main(String[] args) {

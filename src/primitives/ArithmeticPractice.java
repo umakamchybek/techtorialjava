@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class ArithmeticPractice {
     public static void main(String[] args) {// main

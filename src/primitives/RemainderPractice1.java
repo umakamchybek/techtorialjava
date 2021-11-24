@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class RemainderPractice1 {
     public static void main(String[] args) {

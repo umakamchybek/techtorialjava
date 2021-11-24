@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class LogicalNegation {
     public static void main(String[] args){

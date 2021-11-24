@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class PrecedencePractice {
     public static void main(String[] args) {

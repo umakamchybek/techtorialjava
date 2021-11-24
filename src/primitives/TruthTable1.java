@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class TruthTable1 {
     public static void main(String[] args) {

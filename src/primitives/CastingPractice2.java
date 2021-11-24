@@ -1,4 +1,4 @@
-package Primitives;
+package primitives;
 
 public class CastingPractice2 {
     public static void main(String[] args) {
