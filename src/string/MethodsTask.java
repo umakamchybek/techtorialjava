@@ -20,5 +20,6 @@ public class MethodsTask {
         System.out.println("The length of the string is " + word.length());
         System.out.println(" the index of 'x is " + word.indexOf('x'));
 
+
     }
 }

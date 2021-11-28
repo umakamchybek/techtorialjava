@@ -19,6 +19,7 @@ public class Methods2 {
         System.out.println(flower.indexOf("se"));//2
 
         String object = "umbrellam";
+        System.out.println("===>" + object.indexOf("e",6));
         System.out.println(object.indexOf("l"));//5
         System.out.println(object.indexOf('l',6));//6
         System.out.println(object.indexOf('m', object.indexOf('m')+1));//8
