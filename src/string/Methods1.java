@@ -8,14 +8,14 @@ public class Methods1 {
         System.out.println(device);//microphone
 
         char ch = device.charAt(1);
-        System.out.println(ch);//
+        System.out.println(ch);//i
 
         int letterCount = device.length();//returns a number---->10
         System.out.println(letterCount);
         device+= " is expensive";
         device = device.concat(" device");
 
-        System.out.println(device.length());
+        System.out.println(device.length());// microphone is expensive device
 
         // take last char from this last version of the string
         System.out.println(device.charAt(29));//

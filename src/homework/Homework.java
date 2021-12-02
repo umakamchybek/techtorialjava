@@ -1,11 +1,22 @@
 package homework;
 
-public class Homework {
+import java.util.Scanner;
+class Homework {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+// Please do all coding here
 
-        int a = 5;
-        int b = 9;
-        int result = a++ + ++a + --b + ++b + b + ++a + ++b - --b + a;
-        System.out.println(result);
+
+        System.out.println("Enter a random word");
+        String word = input.next();
+
+        System.out.println("Enter number of letter that word consists");
+        int number = input.nextInt();
+
+        System.out.println(word.length() == number);
+        System.out.println("Enter a letter that you want to find an index");
+        String letter = input.next();
+        System.out.println(word.contains("a"));
+        System.out.println(word.indexOf("c"));
     }
 }
