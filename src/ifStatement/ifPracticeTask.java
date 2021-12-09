@@ -6,7 +6,7 @@ public class ifPracticeTask {
     public static void main(String[] args) {
          /*
          Ask user to enter a single word
-         if the word's firs letter is
+         if the word's first letter is
          M---> there is a day starts with m>>Monday
           */
         Scanner input = new Scanner(System.in);
