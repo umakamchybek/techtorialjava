@@ -12,7 +12,7 @@ public class CastingPractice {
 
         byte by2 = 2;
 
-      /* short sum1 = by1+by2; compile time error (due ti numeric promotion
+      /* short sum1 = by1+by2; compile time error (due to numeric promotion
         java wants to store the results in to larger data type (int)
         thats why it is not compiling)*/
 

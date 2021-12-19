@@ -3,22 +3,30 @@ package string;
 public class Methods4 {
     public static void main(String[] args) {
         String text = "Selenium";
+
+
         // contains(); it will check if the string has given value or not, returns true/false
 
+
+
         boolean result1 = text.contains("le");
-        System.out.println(result1);//true
-        System.out.println(text.contains("t"));//false
-        System.out.println(text.contains("selenium"));//false
-        System.out.println(text.contains("1"));//false
-        System.out.println(text.contains("ium"));//true
+        System.out.println("======"+result1);//true
+        System.out.println("*****"+text.contains("t"));//false
+        System.out.println("+++++"+text.contains("selenium"));//true
+        System.out.println("-------"+text.contains("1"));//false
+        System.out.println("//////"+text.contains("ium"));//true
+
 
         //equals(); it checks if the given string has exactly same order of char. will return true or false
+
+
 
         System.out.println(text.equals("Selenium"));//true
         System.out.println(text.equals("nium"));//false
         System.out.println(text.equals("selenium"));//false
 
         // equalIgnorecase(); it will ignore upper or lower cases. will return true or false
+
 
         System.out.println(text.equalsIgnoreCase("selenium"));//true
 
@@ -30,8 +38,10 @@ public class Methods4 {
         System.out.println(result2);//true
 
 
-       text3.concat(text);
-        text3.toLowerCase();
+       text3=text3.concat(text);
+        System.out.println("*****"+text3);
+        text3=text3.toLowerCase();
+        System.out.println(text3);
 
         text = text3;
         System.out.println(text3.equals(text));//true

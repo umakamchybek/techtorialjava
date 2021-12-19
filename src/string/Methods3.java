@@ -7,10 +7,10 @@ public class Methods3 {
         //
 
         boolean bl1= brand.startsWith("N");
-        System.out.println(bl1);
+        System.out.println(bl1);//true
 
         boolean bl2 = brand.startsWith("n");
-        System.out.println(bl2);
+        System.out.println(bl2);//false
 
         System.out.println(brand.startsWith("Nike"));//true
         System.out.println(brand.startsWith("nike"));//false

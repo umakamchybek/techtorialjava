@@ -27,7 +27,7 @@ public class UnaryPractice {
 
         number++;
         System.out.println( number++ +number++);//shows 13 the number is 8
-        System.out.println(number);
+        System.out.println(number);//8
 
         int result = --number + --number + 2 - number++ * 2;
         System.out.println(result);//3

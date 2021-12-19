@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MethodsTask {
     public static void main(String[] args) {
+
         //Task: get string from user
         //	print first, last, middle, second matching 'c', lengh, index of x
 

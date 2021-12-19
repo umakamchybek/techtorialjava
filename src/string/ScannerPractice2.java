@@ -11,10 +11,9 @@ public class ScannerPractice2 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter  your weight in kg ");
-
           double height = scanner.nextDouble();
-        System.out.println("please enter your height in kg ");
 
+        System.out.println("please enter your height in meters ");
         double weight = scanner.nextDouble();
         System.out.println();
 

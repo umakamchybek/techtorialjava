@@ -24,10 +24,17 @@ Output: "CellPhon"
 
         if(str.length()==str2.length()){
             System.out.println(str.concat(str2));
-        }else if(str.length()!=str2.length()){
-            str.length();
-            str2.length();
-            System.out.println();
+        }else if(str.length()> str2.length()) {
+            while(str.length()> str2.length()){
+                str = str.substring(0, str.length()-1);
+            }
+            System.out.println(str.concat(str2));
+        }
+        else if(str.length()< str2.length()) {
+            while(str.length()< str2.length()){
+                str2 = str2.substring(0, str2.length()-1);
+            }
+            System.out.println(str.concat(str2));
         }
 
     }

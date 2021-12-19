@@ -6,15 +6,15 @@ public class ComparisonPractice {
         float fl = 4.4f;
         int i = 4;
         //==
-        System.out.println(fl==i);
+        System.out.println(fl==i);//false
 
         boolean comp1 = fl ==i;
-        System.out.println(comp1);
+        System.out.println(comp1);//false
 
-        System.out.println(18==18);
+        System.out.println(18==18);//true
 
-        System.out.println('a'=='a');
-        System.out.println("test"=="tesT");
+        System.out.println('a'=='a');//true
+        System.out.println("test"=="tesT");//false
 
         //!=
 

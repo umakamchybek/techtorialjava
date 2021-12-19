@@ -29,7 +29,14 @@ Output: blue
         }else if(ifBlue){
             if(word.indexOf("b")<word.indexOf("l")&&word.indexOf("l")<word.indexOf("u")&&
             word.indexOf("u")<word.indexOf("e")){
-            System.out.println("blue");
+                int indexB= word.indexOf("b");
+                int indexL=word.indexOf("l",indexB);
+                int indexU=word.indexOf("u",indexL);
+                int indexE= word.indexOf("e",indexU);
+
+                if (indexB<indexL&&indexL<indexU&&indexU<indexE) {
+                    System.out.println("blue");
+                }
             }
         }
 

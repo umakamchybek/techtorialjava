@@ -72,6 +72,7 @@ public class NestedSwitchPractice {
                 String name2 = scanner.nextLine().toLowerCase();
                 switch (name2) {
                     case "zack":
+
                         System.out.println("Hello This is Zack");
                         break;
                     case "ana":

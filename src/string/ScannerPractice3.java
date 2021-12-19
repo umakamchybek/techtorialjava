@@ -22,8 +22,8 @@ public class ScannerPractice3 {
         System.out.println(name + " you are " + age +  "years old ");
 
         int currentYear = LocalDateTime.now().getYear();
-        System.out.println(currentYear);
+        System.out.println(currentYear+" year");
         int currentMinute = LocalDateTime.now().getMinute();
-        System.out.println(currentMinute);
+        System.out.println(currentMinute+" minutes");
     }
 }
