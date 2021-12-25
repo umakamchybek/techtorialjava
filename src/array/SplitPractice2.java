@@ -1,7 +1,10 @@
 package array;
 
+import java.util.Arrays;
+
 public class SplitPractice2 {
     public static void main(String[] args) {
+        // find the words that has even amount of letters
         String str="Hummingbirds are birds native to the Americas " +
                 "and comprise the biological family Trochilidae. " +
                 "With about 360 species, they occur from Alaska to Tierra " +
@@ -21,6 +24,30 @@ public class SplitPractice2 {
                 "lying in wind tunnels, their top speeds exceed 15 m/s (54 km/h; 34 mph). During" +
                 " courtship, some male species dive from 30 metres (100 ft) of height " +
                 "above a female at speeds around 23 m/s (83 km/h; 51 mph).";
+        String text = "";
+        for (int i = 0; i < str.length(); i++) {
+
+            if (Character.isAlphabetic(str.charAt(i)) || str.charAt(i) == ' ') {
+
+                text += str.charAt(i);
+            }
+        }
+        System.out.println(text);
+        System.out.println("============");
+        String[] words = text.split(" ");
+        System.out.println(Arrays.toString(words));
+
+        System.out.println("*******************");
+        int count = 0;
+        for (String word : words){
+
+            if (word.length()%2 ==0){
+                count++;
+                System.out.println(word);
+            }
+        }
+        System.out.println(count);
+
 
 
 
