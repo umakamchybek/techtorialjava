@@ -24,10 +24,10 @@ public class HeadTailGame {
         Random random = new Random();
         String playAgain;
         do {
-            System.out.println("Game is started, MAKE a GUESS! HEAD/TAIL ");
+            System.out.println("Game has started, MAKE a GUESS! HEAD/TAIL ");
             String guess = scanner.nextLine();
             int number =  random.nextInt(2);
-            String result = number == 0 ? "HEAD" : "TAIL";
+            String result = number == 0 ? "HEAD" : "TAIL";//we used ternary method
             // if you want to filter user's head/tail answer you can implement if condition here
             if (guess.equalsIgnoreCase(result)) {
                 System.out.println("You are LUCKY");

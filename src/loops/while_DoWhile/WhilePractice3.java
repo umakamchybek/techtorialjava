@@ -14,7 +14,7 @@ public class WhilePractice3 {
         int num = input.nextInt();
 
         int multiplier = 1;
-        while (multiplier<=15){
+        while (multiplier<=10){
 
             System.out.println(num +" * " +multiplier + " = " + (multiplier*num));
             multiplier++;

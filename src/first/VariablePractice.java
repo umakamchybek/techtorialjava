@@ -4,6 +4,7 @@ public class VariablePractice {
     public static void main(String[] args) {
 
 
+
         int number1 = 6;
         //int number1=7; you can not create a variable with the same name more than once
 

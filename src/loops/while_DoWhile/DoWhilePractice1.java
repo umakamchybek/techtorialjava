@@ -14,16 +14,7 @@ public class DoWhilePractice1 {
             num++;
         }while(num<=20);
         System.out.println("Sum is  "+sum);
-        /*
-        -Ask user to provide a number between 3 to 10
-  - make a star tree for that many line
-  (Use Do-While Loop to implement solution)
-    ex: input --> 4
-                  *
-                  **
-                  ***
-                  ****
-         */
+
 
     }
 }

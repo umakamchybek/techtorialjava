@@ -18,12 +18,12 @@ public class ifCurlyBracketPractice {
 
         if(num1<10)
             num1++;
-        System.out.println(num1);
+        System.out.println(num1);//7
 
 
         if(num2>20)
             num2++;
-        System.out.println(num2);
+        System.out.println(num2);//4
 
         if(num2>20){
             num2++;

@@ -3,7 +3,7 @@ package switchStatement;
 public class SwitchPractice {
     public static void main(String[] args) {
 
-        int number = 1200;
+        int number = 120;
         System.out.println("Before switch");
 
         switch(number){

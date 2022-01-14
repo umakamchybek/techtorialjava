@@ -18,15 +18,15 @@ public class TernaryPractice {
         System.out.println(result4);
         String str = "David";
 
-        String result5=str.substring(3).equals("id") ? str.toLowerCase()
-                .concat(" is number"): str.toUpperCase().concat("is string");
+        String result5=str.substring(3).equals("id") ?
+                str.toLowerCase().concat(" is number"): str.toUpperCase().concat("is string");
         System.out.println(result5);
         System.out.println(str.equalsIgnoreCase("DAVID") ?
                 str.substring(3).toUpperCase(): str.substring(3).toLowerCase());
 
         int n1 = 2;
         int n2 = 3;
-        int result6 = n1%2==0? 5:6;
+        int result6 = n1%2==0? 5 : 6;
         System.out.println(result6);
     }
 }
